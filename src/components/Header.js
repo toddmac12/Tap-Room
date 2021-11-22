@@ -2,8 +2,12 @@ import React from "react";
 
 function Header(){
   return (
-    <h1>Help Queue</h1>
+<React.Fragment>
+  <h1>Tap Room</h1>
+  <h2>Keg List</h2>
+</React.Fragment>
   );
 }
+  
 
 export default Header;
