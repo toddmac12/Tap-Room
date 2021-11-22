@@ -2,11 +2,11 @@ import React from "react";
 import { v4 } from "uuid";
 import PropTypes from "prop-types";
 
-function NewKegForm(props){
+function NewKegForm(props) {
 
-  function handleNewKegFormSubmission(event){
+  function handleNewKegFormSubmission(event) {
     event.preventDefault();
-    props.onNewKegCreation({name: event.target.name.value, brewer: event.target.brewer.value, type: event.target.type.value, abv: event.target.abv.valueAsNumber, price: event.target.price.valueAsNumber, pintsRemaining: 124, id: v4()});
+    props.onNewKegCreation({ name: event.target.name.value, brewer: event.target.brewer.value, type: event.target.type.value, abv: event.target.abv.valueAsNumber, price: event.target.price.valueAsNumber, pintsRemaining: 124, id: v4() });
   }
   return (
     <React.Fragment>
