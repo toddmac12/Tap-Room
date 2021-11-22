@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Tap Room
+Web application for tracking and managing taps.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Authored by:" Anthony McRae
 
-## Available Scripts
+* Technologies:
+* React.js
+* CSS
+* Node.js
+* JavaScpript
+* React-Bootstrap
 
-In the project directory, you can run:
+## Componet Diagram
+![component-diagram Image](./component-diagram.drawio.png)
 
-### `yarn start`
+## Description
+* A user can see a list/menu of all available kegs. 
+* A user can see each keg's name, brand, price and alcohol content(ABV). 
+* A user can add a new keg to a list by clicking a button to go to keg's detail page. 
+* A user can see how many pints are left in a keg(roughly 124 pints). 
+* A user is able to click a button next to a keg to sell a pint of it which decreases the number of pints left by 1. Pints are not be able to go below 0.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Setup and Usage Instructions
+### Technology Requirements
+* Download and install a code text editor. Ex: VS Code
+### Installation
+* Clone this repository, or download and open the Zip on your local machine
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Open the tap-room folder in your preferred text editor
 
-### `yarn test`
+* To install required packages, navigate to the tap-room directory in the terminal and type the following command: ```npm install```
+   * To run the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Navigate to the tap-room folder in the command line or terminal
+* Run the command ```"npm start"```
 
-### `yarn build`
+Known Issues:
+* None
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed uder the MIT License.
